@@ -5,7 +5,7 @@ a. Using If else ladder. */
 #include<stdio.h>
 int main()
 {
-
+6
      int year,month,leap,days;
 
 	 printf("Enter the year : \n");
@@ -16,11 +16,11 @@ int main()
 	 
 	 if((month==2) && ((year%400==0) || ((year%100!=0)&&(year%4==0))))
 	 {
-        printf("Number of days is 29");
+        printf("Number of days is 29 and the year is leap year");
 	 }
 	 else if(month==2)
 	 {
-        printf("Number of days is 28 and the year is leap year");
+        printf("Number of days is 28 ");
     }
     else if(month== 1 || month==3 || month==5 || month==7 || month==8 || month==10 || month==12){
         printf("Number of days is 31");
